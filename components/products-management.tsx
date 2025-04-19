@@ -66,8 +66,8 @@ export function ProductsManagement() {
     const matchesSearch =
       product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       product.description.toLowerCase().includes(searchQuery.toLowerCase())
-    const matchesCategory = !categoryFilter || product.category === categoryFilter
-    const matchesStatus = !statusFilter || product.status === statusFilter
+    const matchesCategory = !categoryFilter || categoryFilter === "all" || product.category === categoryFilter
+    const matchesStatus = !statusFilter || statusFilter === "all" || product.status === statusFilter
 
     return matchesSearch && matchesCategory && matchesStatus
   })

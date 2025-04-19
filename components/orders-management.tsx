@@ -36,7 +36,7 @@ export function OrdersManagement() {
       order.customer.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       order.customer.email.toLowerCase().includes(searchQuery.toLowerCase())
     
-    const matchesStatus = !statusFilter || order.status === statusFilter
+    const matchesStatus = !statusFilter || statusFilter === "all" || order.status === statusFilter
     
     const matchesDateRange = !dateRangeFilter.start || !dateRangeFilter.end || 
       (new Date(order.date) >= new Date(dateRangeFilter.start) && 
