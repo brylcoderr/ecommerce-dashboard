@@ -102,7 +102,7 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ## 👤 Author
 
-**Your Name**  
+**Shubham Kushwah**  
 [GitHub](https://github.com/brylcoderr) • [LinkedIn](https://linkedin.com/in/brylcoder)
 
 ---
