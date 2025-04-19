@@ -1,9 +1,7 @@
 ```markdown
 # 🛒 eCommerce Dashboard
 
-A modern, responsive eCommerce admin dashboard built using **Next.js 15**, **Tailwind CSS**, **Radix UI**, and **Recharts**. <br>This dashboard provides store performance insights such as sales, active users, orders, and conversion rates.
-
-![Dashboard Screenshot](./Screenshot%202025-04-19%20175907.png)
+A modern, responsive eCommerce admin dashboard built using **Next.js 15**, **Tailwind CSS**, **Radix UI**, and **Recharts**. This dashboard provides store performance insights such as sales, active users, orders, and conversion rates.
 
 ---
 
